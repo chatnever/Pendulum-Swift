@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		019BFFC819DE797900CC809A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BFFC719DE797900CC809A /* AppDelegate.swift */; };
+		019BFFCA19DE797900CC809A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BFFC919DE797900CC809A /* ViewController.swift */; };
+		019BFFCD19DE797900CC809A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019BFFCB19DE797900CC809A /* Main.storyboard */; };
+		019BFFCF19DE797900CC809A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019BFFCE19DE797900CC809A /* Images.xcassets */; };
+		019BFFD219DE797B00CC809A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 019BFFD019DE797B00CC809A /* LaunchScreen.xib */; };
+		019BFFDE19DE797C00CC809A /* PendulumInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BFFDD19DE797C00CC809A /* PendulumInSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		019BFFD819DE797C00CC809A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 019BFFBA19DE797900CC809A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 019BFFC119DE797900CC809A;
+			remoteInfo = PendulumInSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019BFFC219DE797900CC809A /* PendulumInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PendulumInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		019BFFC619DE797900CC809A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019BFFC719DE797900CC809A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		019BFFC919DE797900CC809A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		019BFFCC19DE797900CC809A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		019BFFCE19DE797900CC809A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		019BFFD119DE797B00CC809A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		019BFFD719DE797C00CC809A /* PendulumInSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PendulumInSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		019BFFDC19DE797C00CC809A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019BFFDD19DE797C00CC809A /* PendulumInSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumInSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019BFFBF19DE797900CC809A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019BFFD419DE797C00CC809A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019BFFB919DE797900CC809A = {
+			isa = PBXGroup;
+			children = (
+				019BFFC419DE797900CC809A /* PendulumInSwift */,
+				019BFFDA19DE797C00CC809A /* PendulumInSwiftTests */,
+				019BFFC319DE797900CC809A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		019BFFC319DE797900CC809A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019BFFC219DE797900CC809A /* PendulumInSwift.app */,
+				019BFFD719DE797C00CC809A /* PendulumInSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		019BFFC419DE797900CC809A /* PendulumInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				019BFFC719DE797900CC809A /* AppDelegate.swift */,
+				019BFFC919DE797900CC809A /* ViewController.swift */,
+				019BFFCB19DE797900CC809A /* Main.storyboard */,
+				019BFFCE19DE797900CC809A /* Images.xcassets */,
+				019BFFD019DE797B00CC809A /* LaunchScreen.xib */,
+				019BFFC519DE797900CC809A /* Supporting Files */,
+			);
+			path = PendulumInSwift;
+			sourceTree = "<group>";
+		};
+		019BFFC519DE797900CC809A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				019BFFC619DE797900CC809A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		019BFFDA19DE797C00CC809A /* PendulumInSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				019BFFDD19DE797C00CC809A /* PendulumInSwiftTests.swift */,
+				019BFFDB19DE797C00CC809A /* Supporting Files */,
+			);
+			path = PendulumInSwiftTests;
+			sourceTree = "<group>";
+		};
+		019BFFDB19DE797C00CC809A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				019BFFDC19DE797C00CC809A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		019BFFC119DE797900CC809A /* PendulumInSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019BFFE119DE797C00CC809A /* Build configuration list for PBXNativeTarget "PendulumInSwift" */;
+			buildPhases = (
+				019BFFBE19DE797900CC809A /* Sources */,
+				019BFFBF19DE797900CC809A /* Frameworks */,
+				019BFFC019DE797900CC809A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PendulumInSwift;
+			productName = PendulumInSwift;
+			productReference = 019BFFC219DE797900CC809A /* PendulumInSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		019BFFD619DE797C00CC809A /* PendulumInSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019BFFE419DE797C00CC809A /* Build configuration list for PBXNativeTarget "PendulumInSwiftTests" */;
+			buildPhases = (
+				019BFFD319DE797C00CC809A /* Sources */,
+				019BFFD419DE797C00CC809A /* Frameworks */,
+				019BFFD519DE797C00CC809A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				019BFFD919DE797C00CC809A /* PBXTargetDependency */,
+			);
+			name = PendulumInSwiftTests;
+			productName = PendulumInSwiftTests;
+			productReference = 019BFFD719DE797C00CC809A /* PendulumInSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019BFFBA19DE797900CC809A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Dzung Nguyen";
+				TargetAttributes = {
+					019BFFC119DE797900CC809A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					019BFFD619DE797C00CC809A = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 019BFFC119DE797900CC809A;
+					};
+				};
+			};
+			buildConfigurationList = 019BFFBD19DE797900CC809A /* Build configuration list for PBXProject "PendulumInSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 019BFFB919DE797900CC809A;
+			productRefGroup = 019BFFC319DE797900CC809A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019BFFC119DE797900CC809A /* PendulumInSwift */,
+				019BFFD619DE797C00CC809A /* PendulumInSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019BFFC019DE797900CC809A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019BFFCD19DE797900CC809A /* Main.storyboard in Resources */,
+				019BFFD219DE797B00CC809A /* LaunchScreen.xib in Resources */,
+				019BFFCF19DE797900CC809A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019BFFD519DE797C00CC809A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019BFFBE19DE797900CC809A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019BFFCA19DE797900CC809A /* ViewController.swift in Sources */,
+				019BFFC819DE797900CC809A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019BFFD319DE797C00CC809A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019BFFDE19DE797C00CC809A /* PendulumInSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		019BFFD919DE797C00CC809A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 019BFFC119DE797900CC809A /* PendulumInSwift */;
+			targetProxy = 019BFFD819DE797C00CC809A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		019BFFCB19DE797900CC809A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019BFFCC19DE797900CC809A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		019BFFD019DE797B00CC809A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				019BFFD119DE797B00CC809A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		019BFFDF19DE797C00CC809A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		019BFFE019DE797C00CC809A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		019BFFE219DE797C00CC809A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PendulumInSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		019BFFE319DE797C00CC809A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PendulumInSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		019BFFE519DE797C00CC809A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PendulumInSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PendulumInSwift.app/PendulumInSwift";
+			};
+			name = Debug;
+		};
+		019BFFE619DE797C00CC809A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PendulumInSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PendulumInSwift.app/PendulumInSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019BFFBD19DE797900CC809A /* Build configuration list for PBXProject "PendulumInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019BFFDF19DE797C00CC809A /* Debug */,
+				019BFFE019DE797C00CC809A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019BFFE119DE797C00CC809A /* Build configuration list for PBXNativeTarget "PendulumInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019BFFE219DE797C00CC809A /* Debug */,
+				019BFFE319DE797C00CC809A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		019BFFE419DE797C00CC809A /* Build configuration list for PBXNativeTarget "PendulumInSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019BFFE519DE797C00CC809A /* Debug */,
+				019BFFE619DE797C00CC809A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 019BFFBA19DE797900CC809A /* Project object */;
+}
