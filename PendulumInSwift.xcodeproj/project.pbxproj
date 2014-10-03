@@ -13,6 +13,7 @@
 		019BFFCF19DE797900CC809A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019BFFCE19DE797900CC809A /* Images.xcassets */; };
 		019BFFD219DE797B00CC809A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 019BFFD019DE797B00CC809A /* LaunchScreen.xib */; };
 		019BFFDE19DE797C00CC809A /* PendulumInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019BFFDD19DE797C00CC809A /* PendulumInSwiftTests.swift */; };
+		019BFFE819DE7A0200CC809A /* pendulum.png in Resources */ = {isa = PBXBuildFile; fileRef = 019BFFE719DE7A0200CC809A /* pendulum.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		019BFFD719DE797C00CC809A /* PendulumInSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PendulumInSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		019BFFDC19DE797C00CC809A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		019BFFDD19DE797C00CC809A /* PendulumInSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumInSwiftTests.swift; sourceTree = "<group>"; };
+		019BFFE719DE7A0200CC809A /* pendulum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pendulum.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				019BFFC719DE797900CC809A /* AppDelegate.swift */,
 				019BFFC919DE797900CC809A /* ViewController.swift */,
 				019BFFCB19DE797900CC809A /* Main.storyboard */,
+				019BFFE719DE7A0200CC809A /* pendulum.png */,
 				019BFFCE19DE797900CC809A /* Images.xcassets */,
 				019BFFD019DE797B00CC809A /* LaunchScreen.xib */,
 				019BFFC519DE797900CC809A /* Supporting Files */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				019BFFCD19DE797900CC809A /* Main.storyboard in Resources */,
+				019BFFE819DE7A0200CC809A /* pendulum.png in Resources */,
 				019BFFD219DE797B00CC809A /* LaunchScreen.xib in Resources */,
 				019BFFCF19DE797900CC809A /* Images.xcassets in Resources */,
 			);
